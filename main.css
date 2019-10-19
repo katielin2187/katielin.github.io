@@ -1,8 +1,7 @@
-<style>
-
 body {
-    margin: 60px auto;
-    width: 70%;
+	margin: 60px auto;
+	width: 70%;
+	background-color: #f1faff;		
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -44,4 +43,6 @@ ul.posts li {
     list-style: none;
 }
 
-</style>
+ul{
+	list-style-type: none;
+}
