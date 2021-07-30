@@ -1,15 +1,20 @@
+
+
 body {
 	margin: 60px auto;
 	width: 70%;
 	background-color: #f1faff;		
 }
-nav ul, footer ul {
+
+/*Main nagivation*/
+
+nav ul, div ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
 }
-nav ul li, footer ul li {
+nav ul li, div ul li {
     display: inline;
     margin-right: 20px;
 }
@@ -20,9 +25,10 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
 name {
     font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'', 'Courier New', 'Sans-Serif';
 }
 
 p {
@@ -30,7 +36,7 @@ p {
     line-height: 1.4em;
     color: #333;
 }
-footer {
+div ul {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
     border-bottom: 1px solid #d5d5d5;
