@@ -99,7 +99,7 @@ html, body {
     display: block; /* Make the links appear below each other */
     padding-top: 5px; /* Add top padding */
     text-decoration: none; /* Remove underline from links */
-    font-family:'Mon';
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
     font-weight: normal;
     text-align: center;
 }
