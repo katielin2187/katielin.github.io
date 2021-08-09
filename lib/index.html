@@ -8,73 +8,77 @@
 		<link rel="stylesheet" type="text/css" href="index.css">
 	</head>
 
-	<!-----------------------Main Navigation----------------------->
-	<nav> <ul>
-		<li><a href="index.html">Home</a></li>
-		<li><a href="aboutMe.html">About Me</a></li>
-		<li><a href="https://www.linkedin.com/in/katie-l-314a54114">Linkedin</a></li>
-		<li><a href="projects.html">Projects</a></li>
-	</ul> </nav>
 
-	<!-------------------------------Header------------------------------>
-	<div class="container">
+	<!---~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Navigation Bar/Header~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~--->
+	<div class="topnav" style="position: sticky; width: 100%">
 
-		<!---------------------Name, Major, Grad Year Blurb---------------------->
-		<div class="header">
-
-			<name> Katie Lin </name> <br>
-			<sub>Computer Science | Media Arts | WPI 2022 </sub>
-			<logo>
-				<img srcset="resources/logo_1.png", width = 75px, height = auto, align="left"><br><br>
-			</logo>
+		<!-----------------------Logo-------------------------->
+		<div style="float: left; padding-left: 35px; padding-right: 20px">
+			<img srcset="resources/logo_1.png", height = 100px, height = auto, style="object-fit: cover;">
 		</div>
 
-	</div><br>
+		<!--------------------Navigation Bar-------------------->
+		<a class="active" href="index.html">Home</a>
+		<a href="aboutMe.html">About Me</a></li>
+		<a href="resume.html">Resume</a></li>
+		<a href="artwork.html"> Artwork </a></li>
+		<a href="projects.html">Projects</a></li>
+		<a href="photoGallery.html">Photo Gallery</a></li>
+		<br><br><br>
 
-	<!---------------------------Horizontal Line Break----------------------->
-	<hr>
-
-
-	<!---------------------------Info. Navigation----------------------->
-	<nav>
-		<ul>
-			<li><a href="mailto:katielin2187@gmail.com">email</a></li>
-			<li><a href="https://github.com/katielin2187">Github</a></li>
-			<li><a href="https://open.spotify.com/playlist/2drLVzFYGHm1BxSzr7ndR2?si=0900320a51df45ad">Personal Playlist</a></li>
-			<li><a href="artwork.html"> Artwork </a></li>
-			<li><a href="photoGallery.html"> Photo Gallery </a></li>
-		</ul>
-	</nav>
-
-
-	<!---------------------------Main Body------------------------->
-	<body>
-		<!----------------////////////Content\\\\\\\\\\\---------------->
-		<!---------------------------Image[s]------------------------->
-		<div> <br>
-			<img srcset="resources/blueDressDesk_1.JPG", height = 600px, height = auto, style="object-fit: cover;">
+		<!----------------------My Info------------------------->
+		<div class="header" style="position:static;">
+			<sub> Katie Lin | Computer Science | Media Arts | WPI 2022 </sub>
 		</div>
-		<!---------------------------Video[s]------------------------->
 
-		<!----------------------------Text----------------------------->
-
-	</body>
+	</div><br><br><!---~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~End of Navigation Bar/Header~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~--->
 
 
-	<br> <logo>
-		<img srcset="resources/logo_1.png", height = 100px, height = auto, style="object-fit: cover;">
-	</logo> <br> <br>
-
-	<!---------------------------Footer---------------------------->
-	<div class="footer">
-		<!---------------------Name, Major, Grad Year Blurb---------------------->
-		<finfo>Katie Lin | Computer Science - Media Arts | WPI 2022</finfo> <br> <br>
-		<b href="https://katielin2187.github.io/lib/index.html">Github.io</b> <sub> | </sub>
-		<b href="https://katielin2187.github.io/lib/index.html">Github.io</b> <sub> | </sub>
-
-	</div> <br>
 
 
+	<!---~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Main Content Body~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~--->
+	<body><ul class="flex-container">
+
+		<!---------------------------Info. Navigation----------------------->
+		<li class="flex-item">
+			<div class="container" style="float: unset; align-self: auto; height: 100%; margin: 0px; position: unset">
+				<div class="vertical-menu">
+					<div>Quick Links</div>
+					<a href="mailto:katielin2187@gmail.com">Email</a>
+					<a href="https://github.com/katielin2187">Github</a>
+					<a href="https://www.linkedin.com/in/katie-l-314a54114">Linkedin</a>
+				</div>
+			</div>
+		</li>
+
+		<!---------------------------Image[repligen_1.JPG]------------------------->
+		<li class="flex-item">
+			<div class="container" style="align-self: auto; float: unset; margin: 50px">
+				<img srcset="resources/repligen_1.JPG" width = 600px, height = auto, align="relative" style="object-fit: cover;">
+			</div>
+		</li>
+
+	</ul></body><br><!---~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~End of Main Content Body~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~--->
+
+
+	<!---~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Footer~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~--->
+	<div class="footer" style="float: end; width: 100%">
+		<div class="flex-container" style="flex-flow: row;"><!------------------------Container------------------------>
+
+			<!---------------------------Logo---------------------------->
+			<img srcset="resources/logo_1.png", height = 120px, height = auto, style="object-fit: cover;">
+
+			<!---------------------------Content------------------------->
+			<div style="float: left; align-self: center; padding-left: 0px">
+				<div style="padding: 0px">Katie Lin | Computer Science - Media Arts | WPI 2022</div><br>
+				<div style="padding: 0px">
+					<a href="https://katielin2187.github.io/lib/index.html">Github.io</a><sub>|</sub></div>
+				<div>
+					<a href="https://katielin2187.github.io/lib/index.html">Github.io</a><sub>|</sub></div>
+			</div><br>
+
+		</div> <br>
+	</div><!---~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~End of Footer~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~--->
 
 
 </html>

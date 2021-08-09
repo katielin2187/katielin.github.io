@@ -1,65 +1,146 @@
+/*
+Color Schemes
+    #45608f - denim medium blue
+    #f1faff - light baby blue
+    #93a8cc - light cool blue
+    #d5d5d5 - warm grey
+    #cccccc - light grey
+    #7684b8 - periwinkle
+    #c7d6f0 - light periwinkle
+    #cc6a0e - pumpkin orange
+    #333333 - dark grey
+
+ */
 
 
-body {
-	margin: 60px auto;
-	width: 70%;
+/*Main navigation Menu*/
+
+html, body {
+    margin:0;
+    padding:0;
+    background-color: #f1faff;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    font-family:'Helvetica', 'Sans-Serif';
+    background-color: #333333;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
     text-align: center;
-	background-color: #f1faff;		
-}
-
-/*Main nagivation*/
-
-nav ul, div ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    text-align: center;
-    list-style: none;
-    font-weight: bold;
-}
-
-/*navigation list type*/
-nav ul li, div ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-/*navigation text color*/
-a {
+    padding: 14px 16px;
     text-decoration: none;
-    color: #7684b8;
+    font-size: 17px;
 }
 
-/*navigation text hover color*/
-a:hover {
-    text-decoration: underline;
-    color: #c7d6f0;
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #cccccc;
+    color: black;
 }
 
-/*navigation text color*/
-b {
-    text-decoration: none;
-    color: #4e5e7a;
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #cc6a0e;
+    color: white;
 }
 
-/*navigation text hover color*/
-b:hover {
-    text-decoration: underline;
-    color: #c7d6f0;
-}
-
-name {
-    font-size: 2.5em;
+.header {
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-bottom: 15px;
+    background: #6a83ad; /* Set a width if you like */
+    color: white;
+    font-size: 20px;
     font-family:'', 'Courier New', 'Sans-Serif';
 }
 
 
-.header {
-    text-align: right;
-    padding-top: 3px;
-    padding-right: 15px;
-    background: #45608f;
+
+.flex-container {
+    /* We first create a flex layout context */
+    display: flex;
+
+    /* Then we define the flow direction
+       and if we allow the items to wrap
+     * Remember this is the same as:
+     * flex-direction: row;
+     * flex-wrap: wrap;
+     */
+    flex-flow: row wrap;
+
+    /* Then we define how is distributed the remaining space */
+    justify-content: space-around;
+
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.flex-item {
+    background: tomato;
+    padding: 15px;
+    font-weight: unset;
+    text-align: unset;
+}
+
+
+/*Vertical menu navigation*/
+.vertical-menu {
+    width: 140px; /* Set a width if you like */
+    background-color: #45608f; /* Grey background color */
+    color: white; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding-top: 5px; /* Add top padding */
+    text-decoration: none; /* Remove underline from links */
+    font-family:'Mon';
+    font-weight: normal;
+    text-align: center;
+}
+
+.vertical-menu a {
+    background-color: #c7d6f0; /*  background color */
+    color: #cc6a0e; /* pumpkin text color */
+    display: block; /* Make the links appear below each other */
+    padding-top: 10px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+    text-decoration: none; /* Remove underline from links */
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-weight: normal;
+}
+
+.vertical-menu a:hover {
+    background-color: #cccccc; /* light grey background on mouse-over */
+    color: #45608f;
+}
+
+.vertical-menu a.active {
+    background-color: #cc6a0e; /* Add a green color to the "active/current" link */
     color: white;
-    font-size: 20px;
+}
+
+
+
+/*navigation text color*/
+a {
+    text-decoration: none;
+    color: #cc6a0e;
+}
+
+/*navigation text hover color*/
+a:hover {
+    text-decoration: #c7d6f0;
+}
+
+
+name {
+    font-size: 2.5em;
     font-family:'', 'Courier New', 'Sans-Serif';
 }
 
@@ -89,6 +170,21 @@ ul{
 	list-style-type: none;
 }
 
+div.gallery {
+    margin: 1px;
+    border: 1px solid #ccc;
+    float: unset;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.desc {
+    padding: 5px;
+    text-align: center;
+}
+
 .footer {
     padding: 15px;
     text-align: center;
@@ -96,8 +192,4 @@ ul{
     color: white;
     font-size: 15px;
     font-family:'', 'Courier New', 'Sans-Serif';
-}
-
-logo {
-    text-align: left;
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <meta charset="utf-8"/>
@@ -8,44 +8,132 @@
     <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 
-<!-----------------------Main Navigation----------------------->
-<nav> <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="aboutMe.html">About Me</a></li>
-    <li><a href="https://www.linkedin.com/in/katie-l-314a54114">Linkedin</a></li>
-    <li><a href="projects.html">Projects</a></li>
-</ul> </nav>
+<!---~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Navigation Bar/Header~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~--->
+<div class="topnav" style="position: sticky; width: 100%">
 
-<!-------------------------------Header------------------------------>
-<div class="container">
-
-    <!---------------------Content Blurb--------------------------->
-    <div class="header">
-
-        <name>Projects</name> <br>
-        <sub>Katie Lin | Computer Science| WPI 2022 </sub>
-        <logo>
-            <img srcset="resources/logo_1.png", width = 75px, height = auto, align="left"><br><br>
-        </logo>
+    <!-----------------------Logo-------------------------->
+    <div style="float: left; padding-left: 35px; padding-right: 20px">
+        <img srcset="resources/logo_1.png", height = 100px, height = auto, style="object-fit: cover;">
     </div>
 
+    <!--------------------Navigation Bar-------------------->
+    <a class="active" href="index.html">Home</a>
+    <a href="aboutMe.html">About Me</a></li>
+    <a href="resume.html">Resume</a></li>
+    <a href="artwork.html"> Artwork </a></li>
+    <a href="projects.html">Projects</a></li>
+    <a href="photoGallery.html">Photo Gallery</a></li>
+    <br><br><br>
+
+    <!-----------------------Page Title-------------------------->
+    <div class="header" style="position:static;">
+        <sub style="font-size: 45px">Projects</sub>
+    </div>
+
+</div><br><br><!---~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~End of Navigation Bar/Header~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~--->
 
 
-</div><br>
+
+<body><ul class="flex-container" style="flex-flow: row"><!--------------------------Main Body------------------------->
+
+    <li class="flex-item"><!---------------------------Info. Navigation----------------------->
+        <div class="container" style="float: unset; align-self: auto; margin: 0px; position: unset">
+            <div class="vertical-menu">
+                <div>Quick Links</div>
+                <a href="mailto:katielin2187@gmail.com">Email</a>
+                <a href="https://github.com/katielin2187">Github</a>
+                <a href="https://www.linkedin.com/in/katie-l-314a54114">Linkedin</a>
+                <a href="https://open.spotify.com/playlist/2drLVzFYGHm1BxSzr7ndR2?si=0900320a51df45ad">Spotify Playlist</a>
+                <a href="photoGallery.html"> Photo Gallery </a>
+            </div>
+        </div>
+    </li>
+
+    <li class="flex-item"> <!-----------------------Main Content------------------------->
+        <div class="flex-container" style="flex-flow: column;">
+
+            <!---------------------------Image[hiking_1.JPG]------------------------->
+            <img class="flex-item" srcset="resources/hiking_1.JPG" width = 650px, height = auto, style="object-fit: unset; align-self: center">
+
+            <!----------------------------Text----------------------------->
+            <p class="flex-item" > Hi! My name is Katie Lin, and I am a rising senior Computer Science Major
+                and Media Arts Minor from Worcester Polytechnic Institute, better known as WPI.
+                I am currently looking for a full-time position as an entry level software
+                developer where I can further learn, grow, and develop my work experience while
+                collaborating with other passionate engineers who also want to make a difference
+                in driving innovation and creativity. </p>
+
+            <!---------------------------Image[sideProfile_2.JPG]------------------------->
+            <img class="flex-item" srcset="resources/sideProfile_2.JPG" width = 650px, height = auto, style="object-fit: unset; align-self: center">
+
+            <p class="flex-item"> While it's impossible to give a completely accurate depiction about exactly who
+                I am and what makes me, well... me, I am going to give it my best shot regardless. </p>
+
+            <p class="flex-item"> As a passionate artist and an enthusiastic Computer Science Major, I want to
+                incorporate my analytical skills as a programmer with my artistic creativity
+                in order to contribute to collaborative problem solving. </p>
+
+            <p class="flex-item"> While art and programming may seem like two very different fields that share
+                little commonality, through my experience, I have come to discover that both
+                fields require not only creative thinking, but something else more specific —
+                abstract-thinking.</p>
+
+            <p class="flex-item"> Abstract-thinking consists of the ability to define, organize, and create in
+                the absence of concreteness and tangibility. </p>
+
+            <p class="flex-item"> For instance, if you were an artist who wants to create a new piece of artwork,
+                such as a painting, or a drawing, or a even a sculpture, </p>
+
+            <p class="flex-item"> Similarly, the same soft-skills that abstract-thinking incorporates carries over</p>
+
+            <p class="flex-item"> This skill incorporates
+                and consists of .
+                a willingness to collaborate
+                and build upon other people's ideas, and this is a skill that I have gained
+                in my time working with others on collaborative projects in film-making and
+                in coding as well. </p>
+
+            <p class="flex-item"> One way that I have incorporated these passions is by designing my own personal
+                website using HTML and CSS code, which I regularly update to continue its
+                improvement, especially because I believe in further educating myself to
+                improve my current skill-set.
+                I have also taken a few classes at my university that worked with C/C++, Java,
+                Javascript, and Python. </p>
+
+            <p class="flex-item"> One of these classes is Systems Programming Concepts, where I was able to build
+                upon more of the previous knowledge I had in C by working on various projects
+                such as writing a program that would print out a calendar when given a year,
+                creating another program that would simulate the game of life, rewriting various
+                functions of the C language, such as strcmp and strncmp, and constructing a program
+                that would simulate the game, Ants and Doodlebugs. I have also recently taken a
+                class called, Introduction to Machine Organization and Assembly Language, where
+                I was able to use the C/C++ language to write a cache simulator. </p>
+        </div>
+    </li><br> <!-----------------------End of Main Content------------------------->
+
+</ul></body><br><!---~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~End of Main Content Body~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~--->
 
 
-<!-------------------------------Body------------------------------>
-<body>
+<!---~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Footer~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~--->
+<div class="footer" style="float: end; width: 100%">
+    <div class="flex-container" style="flex-flow: row;"><!------------------------Container------------------------>
 
-<br> <br> <br> <br> <br> <br> <br> <br>
-</body>
-<!---------------------------Footer---------------------------->
-<div class="footer">
-    <!---------------------Name, Major, Grad Year Blurb---------------------->
-    <finfo>Katie Lin | Computer Science - Media Arts | WPI 2022</finfo> <br> <br>
-    <b href="https://katielin2187.github.io/lib/index.html">Github.io</b> <sub> | </sub>
-    <b href="https://katielin2187.github.io/lib/index.html">Github.io</b> <sub> | </sub>
+        <!---------------------------Logo---------------------------->
+        <img srcset="resources/logo_1.png", height = 120px, height = auto, style="object-fit: cover;">
 
-</div> <br>
+        <!---------------------------Content------------------------->
+        <div style="float: left; align-self: center; padding-left: 0px">
+            <div style="padding: 0px">Katie Lin | Computer Science - Media Arts | WPI 2022</div><br>
+            <div style="padding: 0px">
+                <a href="https://katielin2187.github.io/lib/index.html">Github.io</a><sub>|</sub></div>
+            <div>
+                <a href="https://katielin2187.github.io/lib/index.html">Github.io</a><sub>|</sub></div>
+        </div><br>
+
+    </div> <br>
+</div><!---~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~End of Footer~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~--->
+
 
 </html>
+
+
