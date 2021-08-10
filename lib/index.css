@@ -94,7 +94,7 @@ html, body {
 /*Vertical menu navigation*/
 .vertical-menu {
     width: 140px; /* Set a width if you like */
-    background-color: #45608f; /* Grey background color */
+    background-color: #333333; /* Grey background color */
     color: white; /* Black text color */
     display: block; /* Make the links appear below each other */
     padding-top: 5px; /* Add top padding */
