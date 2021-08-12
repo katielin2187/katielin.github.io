@@ -78,14 +78,14 @@ html, body {
     /* Then we define how is distributed the remaining space */
     justify-content: space-around;
 
-    padding: 0;
+    padding: 10px;
     margin: 0;
     list-style: none;
 }
 
 .flex-item {
     background: tomato;
-    padding: 15px;
+    padding: 5px;
     font-weight: unset;
     text-align: unset;
 }
